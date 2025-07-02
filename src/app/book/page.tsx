@@ -1,3 +1,4 @@
+import Image from 'next/image';
 export default function BookPage() {
   return (
     <section className="min-h-screen bg-white py-5 px-4">
@@ -5,14 +6,16 @@ export default function BookPage() {
         
         {/* Left Column: Dr. Serena Info */}
         <div className="md:w-1/2 w-full text-center md:text-left">
-          <img
+          <Image
             src="/images/dr-serena-blake.jpg"
             alt="Dr. Serena Blake"
-            className="w-full max-w-xs mx-auto md:mx-0 rounded-lg object-cover shadow-md"
+            width={300}
+            height={400}
+            className="rounded-lg object-cover shadow-md"
           />
           <h2 className="mt-4 text-2xl font-semibold text-indigo-800 mb-2">Dr. Serena Blake, PsyD</h2>
           <p className="mt-2 text-gray-600 text-base leading-relaxed">
-            “Hi, I’m Dr. Serena Blake, a licensed clinical psychologist based in Los Angeles, California. Over the past eight years, I’ve had the privilege of working with hundreds of clients—each with their own story, their own challenges, and their own capacity for growth. My approach is rooted in evidence-based practices like cognitive-behavioral therapy and mindfulness, but more importantly, it’s guided by compassion and connection. Whether we meet in my office on Maplewood Drive or connect virtually via Zoom, my goal is to create a space where you feel safe, supported, and empowered to move forward—whether you're navigating anxiety, working to deepen your relationships, or beginning to heal from trauma.”
+            &ldquo;Hi, I&rsquo;m Dr. Serena Blake, a licensed clinical psychologist based in Los Angeles, California. Over the past eight years, I&rsquo;ve had the privilege of working with hundreds of clients&mdash;each with their own story, their own challenges, and their own capacity for growth. My approach is rooted in evidence-based practices like cognitive-behavioral therapy and mindfulness, but more importantly, it&rsquo;s guided by compassion and connection. Whether we meet in my office on Maplewood Drive or connect virtually via Zoom, my goal is to create a space where you feel safe, supported, and empowered to move forward&mdash;whether you&apos;re navigating anxiety, working to deepen your relationships, or beginning to heal from trauma.&rdquo;
           </p>
         </div>
 
@@ -64,7 +67,7 @@ export default function BookPage() {
               <textarea
                 name="reason"
                 rows={4}
-                placeholder="Briefly describe what you'd like help with..."
+                placeholder="Briefly describe what you&apos;d like help with..."
                 className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400 placeholder-[#CBD5E0]"
               />
             </div>
@@ -75,7 +78,7 @@ export default function BookPage() {
               <input
                 type="text"
                 name="preferredTime"
-                placeholder="e.g. Weekday evenings, 1–3 PM"
+                placeholder="e.g. Weekday evenings, 1&ndash;3 PM"
                 className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400 placeholder-[#CBD5E0]"
               />
             </div>
