@@ -7,10 +7,10 @@ export default function Contact() {
 
         {/*Contact Form (Left) */}
         <div className="w-full md:w-1/2">
-          <h2 className="text-3xl font-bold text-indigo-800 mb-6">Let’s Connect</h2>
+          <h2 className="text-3xl font-bold text-indigo-800 mb-6">Let&apos;s Connect</h2>
           <p className="text-gray-700 text-lg mb-8">
-            Whether you're ready to schedule a session or simply have questions, I’m here for you.
-            Drop me a message and I’ll get back to you as soon as possible.
+            Whether you&apos;re ready to schedule a session or simply have questions, I&apos;m here for you.
+            Drop me a message and I&apos;ll get back to you as soon as possible.
           </p>
 
           <form className="space-y-6 text-left">
@@ -68,8 +68,8 @@ export default function Contact() {
           </p>
           <p className="text-gray-700 text-sm">
             <strong>Office Hours:</strong><br />
-            In-person: Tuesdays & Thursdays, 10 AM – 6 PM<br />
-            Virtual (Zoom): Mondays, Wednesdays & Fridays, 1 PM – 5 PM
+            In-person: Tuesdays &amp; Thursdays, 10 AM – 6 PM<br />
+            Virtual (Zoom): Mondays, Wednesdays &amp; Fridays, 1 PM – 5 PM
           </p>
         </div>
       </div>
