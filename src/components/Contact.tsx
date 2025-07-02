@@ -5,7 +5,7 @@ export default function Contact() {
     <footer id="contact" className="bg-[#F9F4E8] pt-20 pb-10 px-4" data-aos="fade-up">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:items-start gap-12">
 
-        {/* 📩 Contact Form (Left) */}
+        {/*Contact Form (Left) */}
         <div className="w-full md:w-1/2">
           <h2 className="text-3xl font-bold text-indigo-800 mb-6">Let’s Connect</h2>
           <p className="text-gray-700 text-lg mb-8">
@@ -50,7 +50,7 @@ export default function Contact() {
           </form>
         </div>
 
-        {/* 🧾 Practice Info with Image (Right) */}
+        {/*Practice Info with Image (Right) */}
         <div className="w-full md:w-1/2 text-left space-y-5 flex flex-col items-center md:items-start">
           <img
             src="/images/dr-serena-blake.jpg"
@@ -74,7 +74,7 @@ export default function Contact() {
         </div>
       </div>
 
-      {/* ⚖️ Bottom Rights Reserved */}
+      {/*Bottom Rights Reserved */}
       <div className="pt-12 mt-10 border-t border-indigo-200 text-center text-sm text-gray-500">
         &copy; {new Date().getFullYear()} Dr. Serena Blake — All rights reserved.
       </div>
