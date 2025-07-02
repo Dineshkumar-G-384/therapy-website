@@ -19,7 +19,7 @@ export default function Contact() {
               <input
                 type="text"
                 name="name"
-                className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400"
+                className="w-full px-4 py-2 border text-black border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400"
                 required
               />
             </div>
@@ -28,7 +28,7 @@ export default function Contact() {
               <input
                 type="email"
                 name="email"
-                className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400"
+                className="w-full px-4 py-2 border text-black border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400"
                 required
               />
             </div>
@@ -37,7 +37,7 @@ export default function Contact() {
               <textarea
                 name="message"
                 rows={5}
-                className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400"
+                className="w-full px-4 py-2 border text-black border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400"
                 required
               />
             </div>
