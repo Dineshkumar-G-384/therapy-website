@@ -33,7 +33,7 @@ export default function BookPage() {
                 type="text"
                 name="name"
                 placeholder="Your full name"
-                className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400 placeholder-[#CBD5E0]"
+                className="w-full px-4 py-2 border text-black border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400 placeholder-[#CBD5E0]"
                 required
               />
             </div>
@@ -45,7 +45,7 @@ export default function BookPage() {
                 type="tel"
                 name="phone"
                 placeholder="(123) 456-7890"
-                className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400 placeholder-[#CBD5E0]"
+                className="w-full px-4 py-2 border text-black border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400 placeholder-[#CBD5E0]"
               />
             </div>
 
@@ -56,7 +56,7 @@ export default function BookPage() {
                 type="email"
                 name="email"
                 placeholder="you@example.com"
-                className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400 placeholder-[#CBD5E0]"
+                className="w-full px-4 py-2 border text-black border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400 placeholder-[#CBD5E0]"
                 required
               />
             </div>
@@ -68,7 +68,7 @@ export default function BookPage() {
                 name="reason"
                 rows={4}
                 placeholder="Briefly describe what you&apos;d like help with..."
-                className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400 placeholder-[#CBD5E0]"
+                className="w-full px-4 py-2 border text-black border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400 placeholder-[#CBD5E0]"
               />
             </div>
 
@@ -79,7 +79,7 @@ export default function BookPage() {
                 type="text"
                 name="preferredTime"
                 placeholder="e.g. Weekday evenings, 1&ndash;3 PM"
-                className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400 placeholder-[#CBD5E0]"
+                className="w-full px-4 py-2 border text-black border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-indigo-400 placeholder-[#CBD5E0]"
               />
             </div>
 
