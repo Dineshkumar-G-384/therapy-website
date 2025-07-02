@@ -2,7 +2,7 @@
 
 export default function Contact() {
   return (
-    <footer id="contact" className="bg-[#F9F4E8] pt-20 pb-10 px-4" data-aos="fade-up">
+    <footer id="contact" className="bg-[#F9F4E8] scroll-mt-17 pt-15 pb-10 px-4" data-aos="fade-up">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:items-start gap-12">
 
         {/*Contact Form (Left) */}

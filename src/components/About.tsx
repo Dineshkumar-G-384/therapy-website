@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" className="scroll-mt-56 pt-56 pb-40 bg-white px-4">
+    <section id="about" className="scroll-mt-17 pt-30 pb-30 bg-white px-4">
       <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
         
         {/* Left*/}

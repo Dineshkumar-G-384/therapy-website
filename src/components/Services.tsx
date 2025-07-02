@@ -10,7 +10,7 @@ export default function Services() {
             <img
               src="/images/Anxiety & Stress Management.png"
               alt="Anxiety &amp; Stress Management"
-              className="w-full h-64 object-cover rounded-md mb-4"
+              className="w-full h-60 object-cover rounded-md mb-2"
             />
             <p className="text-indigo-500 text-xl font-semibold text-center whitespace-nowrap">
               Anxiety &amp; Stress Management
@@ -25,7 +25,7 @@ export default function Services() {
             <img
               src="/images/Relationship Counseling.png"
               alt="Relationship Counseling"
-              className="w-full h-64 object-cover rounded-md mb-4"
+              className="w-full h-60 object-cover rounded-md mb-2"
             />
             <p className="text-indigo-500 text-xl font-semibold text-center">
               Relationship Counseling
@@ -40,7 +40,7 @@ export default function Services() {
             <img
               src="/images/Trauma Recovery.png"
               alt="Trauma Recovery"
-              className="w-full h-64 object-cover rounded-md mb-4"
+              className="w-full h-60 object-cover rounded-md mb-2"
             />
             <p className="text-indigo-500 text-xl font-semibold text-center">
               Trauma Recovery
